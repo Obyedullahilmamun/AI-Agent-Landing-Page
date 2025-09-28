@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing - Join AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+   <header>
+    <div class="logo">
+    <a href="index.html">
+      <img src="assets/aiagentlogo.svg" alt="AI Agent" />
+    </a>
+    </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="price.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+    <!-- Join button (for mobile only) -->
+    <button class="join-btn mobile-only">Join AI</button>
+  </nav>
+
+  <!-- Desktop Join button -->
+  <button class="join-btn desktop-only">Join AI</button>
+
+  <!-- Hamburger Menu -->
+  <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+</header>
+
+  <main class="hero">
+    <div class="hero-text">
+      <span class="badge">Flexible Plans</span>
+      <h1>Choose the Right Plan <br>for Your Business</h1>
+      <p>
+        Whether you're a startup or an enterprise, our pricing plans are designed
+        to scale with your needs. Get access to our AI-powered chatbot tools,
+        customization options, and 24/7 support.
+      </p>
+    </div>
+    <div class="hero-img">
+      <img src="assets/pricing_image.png" alt="Pricing Plans Illustration" />
+    </div>
+  </main>
+
+  <section class="why-choose-us">
+    <div class="why-choose-us__badge">PRICING PLAN</div>
+    <h2 class="why-choose-us__title">Personalized Pricing Plans Suited to You.</h2>
+   
+
+    <!-- Pricing Toggle and Cards Section -->
+<section class="pricing-toggle-section">
+  <div class="pricing-toggle-row">
+    <span class="toggle-label">Pay Monthly</span>
+    <label class="switch">
+      <input type="checkbox" id="billing-toggle" checked>
+      <span class="slider"></span>
+    </label>
+    <span class="toggle-label">Pay Yearly</span>
+    <span class="save-badge">Save 34%</span>
+  </div>
+  <div class="pricing-cards">
+    <!-- Free Trial -->
+    <div class="pricing-card">
+      <div class="plan-title">Free Trial</div>
+      <div class="plan-price">Free</div>
+      <div class="plan-desc">No Need For Credit Card</div>
+      <button class="choose-plan-btn">Choose Plan</button>
+      <ul class="plan-features">
+        <li class="active">Priority email & chat support</li>
+        <li class="active">Access 12+ use-cases</li>
+        <li>Generate 1,000 AI Words / month</li>
+        <li>Google Docs style editor</li>
+        <li>Compose & command features</li>
+      </ul>
+    </div>
+    <!-- Standard Plan -->
+    <div class="pricing-card best-choice">
+      <div class="best-choice-badge">BEST CHOICE</div>
+      <div class="plan-title">Standard Plan</div>
+      <div class="plan-price">
+        <span class="old-price">$85</span>
+        <span class="new-price">$35.<span class="price-decimal">8</span></span>
+        <span class="discount-badge">49.2%</span>
+      </div>
+      <div class="plan-desc">/Month (annually billed)</div>
+      <div class="save-banner">SAVE UP TO $54.2</div>
+      <button class="choose-plan-btn active">Choose Plan</button>
+      <ul class="plan-features">
+        <li class="active">Priority email & chat support</li>
+        <li class="active">Access 12+ use-cases</li>
+        <li class="active">Generate 1,000 AI Words / month</li>
+        <li>Google Docs style editor</li>
+        <li>Compose & command features</li>
+      </ul>
+    </div>
+    <!-- Liter Plan -->
+    <div class="pricing-card">
+      <div class="plan-title">Liter Plan</div>
+      <div class="plan-price">
+        <span class="old-price">$89</span>
+        <span class="new-price">$56.<span class="price-decimal">8</span></span>
+        <span class="discount-badge">30%</span>
+      </div>
+      <div class="plan-desc">/Month (annually billed)</div>
+      <div class="save-banner">SAVE UP TO $54.2</div>
+      <button class="choose-plan-btn">Choose Plan</button>
+      <ul class="plan-features">
+        <li class="active">Priority email & chat support</li>
+        <li class="active">Access 12+ use-cases</li>
+        <li class="active">Generate 1,000 AI Words / month</li>
+        <li class="active">Google Docs style editor</li>
+        <li>Compose & command features</li>
+      </ul>
+    </div>
+    <!-- Premium Plan -->
+    <div class="pricing-card">
+      <div class="plan-title">Premium Plan</div>
+      <div class="plan-price">
+        <span class="old-price">$99</span>
+        <span class="new-price">$89.<span class="price-decimal">8</span></span>
+        <span class="discount-badge">30%</span>
+      </div>
+      <div class="plan-desc">/Month (annually billed)</div>
+      <div class="save-banner">SAVE UP TO $27.2</div>
+      <button class="choose-plan-btn">Choose Plan</button>
+      <ul class="plan-features">
+        <li class="active">Priority email & chat support</li>
+        <li class="active">Access 12+ use-cases</li>
+        <li class="active">Generate 1,000 AI Words / month</li>
+        <li class="active">Google Docs style editor</li>
+        <li>Compose & command features</li>
+      </ul>
+    </div>
+  </div>
+</section>
+  </section>
+
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="assets/aiagentlogo.svg" alt="AI Agent Logo" />
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <span class="divider">|</span>
+      <a href="#">Term of Service</a>
+    </div>
+  </div>
+  <hr class="footer-divider" />
+  <div class="footer-bottom">
+    <span>© 2025 AI-Agent All Rights Reserved</span>
+  </div>
+</footer>
+
+  <!-- Scroll To Top Button -->
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

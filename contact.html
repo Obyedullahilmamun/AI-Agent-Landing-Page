@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Join AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+   <header>
+    <div class="logo">
+    <a href="index.html">
+      <img src="assets/aiagentlogo.svg" alt="AI Agent" />
+    </a>
+    </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="price.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+    <!-- Join button (for mobile only) -->
+    <button class="join-btn mobile-only">Join AI</button>
+  </nav>
+
+  <!-- Desktop Join button -->
+  <button class="join-btn desktop-only">Join AI</button>
+
+  <!-- Hamburger Menu -->
+  <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+</header>
+
+  <main class="hero">
+    <div class="hero-text">
+      <span class="badge">Get in Touch</span>
+      <h1>Contact Our Team</h1>
+      <p>
+        Have questions or need support? Our team is here to help. Fill out the form below or reach us directly via email or phone.
+      </p>
+    </div>
+    <div class="hero-img">
+      <img src="assets/contact_image.png" alt="Contact AI Agent" />
+    </div>
+  </main>
+
+  <section class="why-choose-us" style="padding-top: 0;">
+    <h2 class="why-choose-us__title">Send Us a Message</h2>
+    <form class="contact-form" style="max-width: 600px; margin: 0 auto; text-align: left;">
+      <div style="margin-bottom: 16px;">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #ccc;">
+      </div>
+      <div style="margin-bottom: 16px;">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #ccc;">
+      </div>
+      <div style="margin-bottom: 16px;">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #ccc;"></textarea>
+      </div>
+      <button type="submit" class="start-btn" style="width: 100%;">Submit</button>
+    </form>
+  </section>
+
+  
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="assets/aiagentlogo.svg" alt="AI Agent Logo" />
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <span class="divider">|</span>
+      <a href="#">Term of Service</a>
+    </div>
+  </div>
+  <hr class="footer-divider" />
+  <div class="footer-bottom">
+    <span>© 2025 AI-Agent All Rights Reserved</span>
+  </div>
+</footer>
+
+  <!-- Scroll To Top Button -->
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
